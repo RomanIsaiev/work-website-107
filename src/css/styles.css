@@ -754,9 +754,14 @@ body {
   margin-bottom: 20px;
 }
 
-.price span {
+.price .old-price {
   color: #985e51;
   text-decoration: line-through;
+}
+
+.iva {
+  font-size: 20px;
+  font-weight: 400;
 }
 
 #countdown-two {
@@ -987,7 +992,7 @@ body {
   color: #985e51;
 }
 
-.questions .price span {
+.questions .price .old-price {
   color: rgba(152, 94, 81, 0.4);
 }
 
